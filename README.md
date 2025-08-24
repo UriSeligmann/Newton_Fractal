@@ -15,7 +15,7 @@ A high-performance GPU-accelerated Newton fractal generator with an interactive 
 ![Main Interface](Images/Screenshot 2025-08-24 145928.png)
 *Main application interface*
 
-![Fractal Generation](Images/Screenshot%202025-08-24%20134222.png)
+![Fractal Generation](Images/Screenshot 2025-08-24 150015.png)
 *Real-time fractal computation with progress tracking*
 
 ## Example Fractals
