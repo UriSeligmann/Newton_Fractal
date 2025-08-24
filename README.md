@@ -22,7 +22,7 @@ A high-performance GPU-accelerated Newton fractal generator with an interactive 
 
 | Function | Result |
 |----------|--------|
-| $z^3 - 1$ | ![z^3-1](Images/fractal_zxx3-1_20250824_132820.jpg) |
+| $z^3 - 1$ | ![z^3-1](Images/fractal_zxx3-1_20250824_132820.png) |
 | $0.1 \cdot e^z - \sin(z)$ | ![0.1*exp(z)-sin(z)](Images/fractal_0.1xexp(z)-sin(z)_20250824_133225.png) |
 | $e^{\sin(z^3) + \cos(z^3)} + 3$ | ![complex function](Images/fractal_exp(sin(zxx3)+cos(zxx3))+3_20250824_131533.jpg) |
 | $\tan(z^3) + \cos(z^3) + \sin(z^3)$ | ![trigonometric](Images/fractal_tan(zxx3)+cos(zxx3)+sin(zxx3)_20250824_134225.jpg) |
