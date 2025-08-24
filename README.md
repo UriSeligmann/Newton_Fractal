@@ -12,28 +12,29 @@ A high-performance GPU-accelerated Newton fractal generator with an interactive 
 
 ## Screenshots
 
-![Main Interface](Screenshot%202025-08-24%20133844.png)
+![Main Interface](Images/Screenshot%202025-08-24%20133844.png)
 *Main application interface*
 
-![Fractal Generation](Screenshot%202025-08-24%20134222.png)
+![Fractal Generation](Images/Screenshot%202025-08-24%20134222.png)
 *Real-time fractal computation with progress tracking*
 
 ## Example Fractals
 
 | Function | Result |
 |----------|--------|
-| `z**3 - 1` | ![z^3-1](fractal_zxx3-1_20250824_132820.jpg) |
-| `0.1*exp(z) - sin(z)` | ![0.1*exp(z)-sin(z)](fractal_0.1xexp(z)-sin(z)_20250824_133225.png) |
-| `exp(sin(z**3) + cos(z**3)) + 3` | ![complex function](fractal_exp(sin(zxx3)+cos(zxx3))+3_20250824_131533.jpg) |
-| `tan(z**3) + cos(z**3) + sin(z**3)` | ![trigonometric](fractal_tan(zxx3)+cos(zxx3)+sin(zxx3)_20250824_134225.jpg) |
+| $z^3 - 1$ | ![z^3-1](Images/fractal_zxx3-1_20250824_132820.jpg) |
+| $0.1 \cdot e^z - \sin(z)$ | ![0.1*exp(z)-sin(z)](Images/fractal_0.1xexp(z)-sin(z)_20250824_133225.png) |
+| $e^{\sin(z^3) + \cos(z^3)} + 3$ | ![complex function](Images/fractal_exp(sin(zxx3)+cos(zxx3))+3_20250824_131533.jpg) |
+| $\tan(z^3) + \cos(z^3) + \sin(z^3)$ | ![trigonometric](Images/fractal_tan(zxx3)+cos(zxx3)+sin(zxx3)_20250824_134225.jpg) |
 
 ## Requirements
 
 - Python 3.7+
 - PyQt6
-- CuPy (NVIDIA GPU with CUDA support)
+- CuPy (NVIDIA GPU with CUDA 13.0+ support)
 - SymPy
 - NumPy
+- **Hardware**: Strong GPU recommended (tested on GeForce RTX 4060)
 
 ## Installation
 
